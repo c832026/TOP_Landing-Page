@@ -1,0 +1,175 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px 150px 100px 150px;
+    gap: 120px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-links>ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.header-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.hero-flex-container>* {
+    flex: 1 1 0;
+}
+
+.hero-flex-container>div:first-child {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+}
+
+.hero-flex-container button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 8px 32px;
+    font-weight: bold;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-img {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    padding-bottom: 50px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-flex-container>div>div:last-child {
+    width: 150px;
+    text-align: center;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid lightseagreen;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    max-height: 330px;
+}
+
+.quote>div:last-child {
+    align-self: flex-end;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.banner {
+    padding: 75px 200px;
+}
+
+.banner-container {
+    background-color: #3882f6;
+    padding: 25px 100px;
+    border-radius: 10px;
+    color: #f9faf8;
+    display: flex;
+    gap: 30px;
+}
+
+.banner-container>div:first-child {
+    flex: 3 1 auto;
+}
+
+.banner-container>div:last-child {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-container button {
+    background-color: #3882f6;
+    color: #f9f9f8;
+    padding: 4px 24px;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.banner-text {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
+}
